@@ -4,6 +4,7 @@ process.env.NODE_ENV = 'test';
 var
 	server = require('../app.js'),
 	chai = require('chai'),
+  should = chai.should(),
 	connection = require ('../app/config/connection'),
 	chaiHttp = require('chai-http');
 
@@ -93,7 +94,24 @@ describe('Todos', function() {
 			});
 	});
 
-	it('DELETE/:id should delete todo with correct id', function(done) {
+  it('POST with empty name should return error', function(done) {
+  	var todo_with_empty_name = {
+  		name: '      '
+		}
+
+    chai.request(server)
+      .post('/todo')
+      .send(todo_with_empty_name)
+      .end(function (err, res) {
+        res.should.have.status(400);
+        res.body.should.be.a('object');
+        res.body.should.have.property('message').eql('TODO creation fail');
+        done();
+      });
+  });
+
+
+  it('DELETE/:id should delete todo with correct id', function(done) {
 		chai.request(server)
 			.delete('/todo/' + todo.id)
 			.end(function (err, res) {

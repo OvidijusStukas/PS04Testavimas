@@ -15,7 +15,8 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/RESTfulAPITutorial_superTest$Todos_DELETE__id_with_bad_id_should_return_error.coverage" NAME="Todos.DELETE/:id with bad id should return error Coverage Results" MODIFIED="1513893472296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/RESTfulAPITutorial_superTest$test.coverage" NAME="test Coverage Results" MODIFIED="1513894807178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/projektas$test.coverage" NAME="test Coverage Results" MODIFIED="1513897996996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/projektas$test.coverage" NAME="test Coverage Results" MODIFIED="1513899898789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/projektas$Todos_GET__id_should_return_todo.coverage" NAME="Todos.GET/:id should return todo Coverage Results" MODIFIED="1513899889276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/RESTfulAPITutorial_superTest$API_Tests.coverage" NAME="test Coverage Results" MODIFIED="1513893487260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/RESTfulAPITutorial_superTest$Todos_GET__id_without_id_should_return_error.coverage" NAME="Todos.GET/:id without id should return error Coverage Results" MODIFIED="1513891071180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
@@ -24,11 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="function-arg-space.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="function-arg-space.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rules/function-arg-space.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="20" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="2" />
+              <caret line="9" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todo.tests.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/todo.tests.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="96" column="36" lean-forward="false" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -39,6 +50,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
               <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todo.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/todo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -59,11 +80,11 @@
       <list>
         <option value="$PROJECT_DIR$/test/test.js" />
         <option value="$PROJECT_DIR$/app/controllers/routes.js" />
-        <option value="$PROJECT_DIR$/app/models/todo.js" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/test/todo.tests.js" />
         <option value="$PROJECT_DIR$/.eslintrc.js" />
         <option value="$PROJECT_DIR$/rules/function-arg-space.js" />
+        <option value="$PROJECT_DIR$/test/todo.tests.js" />
+        <option value="$PROJECT_DIR$/app/models/todo.js" />
       </list>
     </option>
   </component>
@@ -128,6 +149,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -135,6 +157,23 @@
             <path>
               <item name="projektas" type="b2602c69:ProjectViewProjectNode" />
               <item name="projektas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projektas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projektas" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projektas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projektas" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projektas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projektas" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projektas" type="b2602c69:ProjectViewProjectNode" />
@@ -150,17 +189,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
-    <property name="javascript.nodejs.core.library.configured.version" value="9.2.1" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -180,8 +217,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.test">
-    <configuration name="Todos.DELETE/:id should delete todo with correct id" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Mocha.Todos.POST with empty name should return error">
+    <configuration name="Todos.GET/:id should return todo" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -193,10 +230,10 @@
       <test-file>$PROJECT_DIR$/test/todo.tests.js</test-file>
       <test-names>
         <name value="Todos" />
-        <name value="DELETE/:id should delete todo with correct id" />
+        <name value="GET/:id should return todo" />
       </test-names>
     </configuration>
-    <configuration name="Todos.DELETE/:id with bad id should return error" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+    <configuration name="Todos.POST with empty name should return error" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -208,7 +245,7 @@
       <test-file>$PROJECT_DIR$/test/todo.tests.js</test-file>
       <test-names>
         <name value="Todos" />
-        <name value="DELETE/:id with bad id should return error" />
+        <name value="POST with empty name should return error" />
       </test-names>
     </configuration>
     <configuration name="Todos.PUT/:id should update todo" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
@@ -255,18 +292,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Mocha.test" />
-      <item index="1" class="java.lang.String" itemvalue="Mocha.Todos.DELETE/:id should delete todo with correct id" />
-      <item index="2" class="java.lang.String" itemvalue="Mocha.Todos.DELETE/:id with bad id should return error" />
-      <item index="3" class="java.lang.String" itemvalue="Mocha.Todos.PUT/:id should update todo" />
-      <item index="4" class="java.lang.String" itemvalue="Mocha.Todos.PUT/:id with bad id should return error" />
+      <item index="1" class="java.lang.String" itemvalue="Mocha.Todos.PUT/:id should update todo" />
+      <item index="2" class="java.lang.String" itemvalue="Mocha.Todos.PUT/:id with bad id should return error" />
+      <item index="3" class="java.lang.String" itemvalue="Mocha.Todos.GET/:id should return todo" />
+      <item index="4" class="java.lang.String" itemvalue="Mocha.Todos.POST with empty name should return error" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Mocha.test" />
-        <item index="1" class="java.lang.String" itemvalue="Mocha.Todos.PUT/:id with bad id should return error" />
-        <item index="2" class="java.lang.String" itemvalue="Mocha.Todos.PUT/:id should update todo" />
-        <item index="3" class="java.lang.String" itemvalue="Mocha.Todos.DELETE/:id with bad id should return error" />
-        <item index="4" class="java.lang.String" itemvalue="Mocha.Todos.DELETE/:id should delete todo with correct id" />
+        <item index="0" class="java.lang.String" itemvalue="Mocha.Todos.POST with empty name should return error" />
+        <item index="1" class="java.lang.String" itemvalue="Mocha.test" />
+        <item index="2" class="java.lang.String" itemvalue="Mocha.Todos.GET/:id should return todo" />
+        <item index="3" class="java.lang.String" itemvalue="Mocha.Todos.PUT/:id with bad id should return error" />
+        <item index="4" class="java.lang.String" itemvalue="Mocha.Todos.PUT/:id should update todo" />
       </list>
     </recent_temporary>
   </component>
@@ -286,28 +323,26 @@
       <workItem from="1513877992285" duration="372000" />
       <workItem from="1513878568904" duration="4602000" />
       <workItem from="1513893940053" duration="870000" />
-      <workItem from="1513894855735" duration="3723000" />
+      <workItem from="1513894855735" duration="4760000" />
+      <workItem from="1513899833970" duration="255000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Todos_PUT__id_should_update_todo - 2017.12.22 at 00h 09m 27s.xml">
-      <configuration name="Todos.PUT/:id should update todo" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Todos_GET__id_should_return_todo - 2017.12.22 at 01h 44m 00s.xml">
+      <configuration name="Todos.GET/:id should return todo" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Todos_PUT__id_with_bad_id_should_return_error - 2017.12.22 at 00h 12m 32s.xml">
-      <configuration name="Todos.PUT/:id with bad id should return error" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Todos_GET__id_should_return_todo - 2017.12.22 at 01h 44m 49s.xml">
+      <configuration name="Todos.GET/:id should return todo" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Todos_PUT__id_with_bad_id_should_return_error - 2017.12.22 at 00h 13m 02s.xml">
-      <configuration name="Todos.PUT/:id with bad id should return error" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Todos_POST_with_empty_name_should_return_error - 2017.12.22 at 01h 45m 47s.xml">
+      <configuration name="Todos.POST with empty name should return error" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Todos_PUT__id_with_bad_id_should_return_error - 2017.12.22 at 00h 13m 34s.xml">
-      <configuration name="Todos.PUT/:id with bad id should return error" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Todos_POST_with_empty_name_should_return_error - 2017.12.22 at 01h 46m 54s.xml">
+      <configuration name="Todos.POST with empty name should return error" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test - 2017.12.22 at 00h 12m 00s.xml">
-      <configuration name="test" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="test - 2017.12.22 at 00h 13m 43s.xml">
-      <configuration name="test" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Todos_POST_with_empty_name_should_return_error - 2017.12.22 at 01h 47m 21s.xml">
+      <configuration name="Todos.POST with empty name should return error" configurationId="mocha-javascript-test-runner" />
     </history-entry>
     <history-entry file="test - 2017.12.22 at 00h 20m 07s.xml">
       <configuration name="test" configurationId="mocha-javascript-test-runner" />
@@ -321,23 +356,27 @@
     <history-entry file="test - 2017.12.22 at 01h 13m 16s.xml">
       <configuration name="test" configurationId="mocha-javascript-test-runner" />
     </history-entry>
+    <history-entry file="test - 2017.12.22 at 01h 44m 58s.xml">
+      <configuration name="test" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9567000" />
+    <option name="totallyTimeSpent" value="10859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3045822" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3045822" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40243903" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31514764" sideWeight="0.49460918" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31899872" sideWeight="0.49460918" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39892185" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -359,11 +398,43 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/rules/function-arg-space.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/todo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/todo.tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="9" lean-forward="false" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintrc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -400,7 +471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -408,7 +478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -456,7 +525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -464,7 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -517,15 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/todo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -533,7 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -549,7 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -565,22 +621,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="636" column="4" lean-forward="false" selection-start-line="636" selection-start-column="4" selection-end-line="636" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/todo.tests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rules/function-arg-space.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="2" />
+          <caret line="9" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/todo.tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="96" column="36" lean-forward="false" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/todo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding />
         </state>
       </provider>

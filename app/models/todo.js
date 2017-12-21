@@ -24,6 +24,9 @@ function Todo() {
 		});
 	};
 	this.create = function(todo,res) {
+		if (todo.name)
+			todo.name = todo.name.trim().length > 0 ? todo.name : null;
+
 		connection.acquire(function(err,con) {
 			con.query('insert into todo_list set ?', todo, function(err,result) {
 				con.release();
