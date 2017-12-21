@@ -19,6 +19,7 @@ module.exports = {
         "semi": [
             "error",
             "always"
-        ]
+        ],
+        "function-arg-space": 1
     }
 };
