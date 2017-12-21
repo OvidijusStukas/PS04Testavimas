@@ -1,0 +1,9 @@
+CREATE TABLE `todo_list`
+(
+	`id` INT NOT NULL AUTO_INCREMENT,
+    `name` VARCHAR(100) NOT NULL,
+    `priority` VARCHAR(100) NULL,
+    `date` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    `preferred_date` TIMESTAMP NULL,
+    PRIMARY KEY (`id`)
+) ENGINE = InnoDB

@@ -1,0 +1,42 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "RESTful todoListApi",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --timeout 10000",
+    "test-coverage": "NODE_ENV=test istanbul cover _mocha -- -R spec",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/generalgmt/RESTfulAPITutorial.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "Tutorial"
+  ],
+  "author": "olatunde garuba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/generalgmt/RESTfulAPITutorial/issues"
+  },
+  "homepage": "https://github.com/generalgmt/RESTfulAPITutorial#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "install": "^0.8.8",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "nodemon": "^1.11.0",
+    "npm": "^4.4.4",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.2",
+    "mysql": "^2.15.0"
+  }
+}
